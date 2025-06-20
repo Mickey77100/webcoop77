@@ -18,7 +18,7 @@ html, body {
 header {
   position: relative;
   width: 100%;
-  padding-top: 1em;
+  padding-top: 0;
   background-repeat: repeat-x;
   background-position: top center;
   background-size: auto 120px;
@@ -31,7 +31,7 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 1em;
+  /*padding: 1em;*/
   gap: 1em;
 }
 
@@ -45,6 +45,7 @@ header {
 /*logo à gauche par défaut*/
 .image-base64.logo {
 align-self:flex-start;
+  margin-top:0;
 margin-right:auto;
 
 }
